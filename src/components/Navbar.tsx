@@ -8,8 +8,7 @@ export default function Navbar() {
   const [isOpen,setIsOpen]=useState(false);
   const links = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/contact", label: "Contact" },
+    
   ];
   return (
     <nav className="relative bg-gray-100 p-4 shadow">
