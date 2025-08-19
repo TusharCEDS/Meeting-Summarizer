@@ -1,7 +1,6 @@
 'use client'
 import React from "react";
 import Link from "next/link";
-import { link } from "fs";
 import { useState } from "react";
 
 export default function Navbar() {
